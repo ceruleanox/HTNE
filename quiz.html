@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTNE | Crew, Not Passengers Quiz App</title>
+        <link rel="stylesheet" href="quizstyles.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        
+        <div class="start-btn">
+            <button>Start Quiz</button>
+        </div>
+
+        <div class="info-box">
+            <div class="info-title">
+                <span>Quiz Guidelines</span>
+            </div>
+            <div class="info-guidelines">
+                <div class="info">1.) You have <span>15 seconds</span> to answer each question.</div>
+                <div class="info">2.) Your first selected answer is your final answer. No redo's!</div>
+                <div class="info">3.) You miss the chance to answer after timer reaches 0.</div>
+                <div class="info">4.) You cannot exit from the quiz while you're playing.</div>
+                <div class="info">5.) Gain 30 seconds of recess for each correct answer. Remember, the amount of recess you have is based on class average. Good luck on this mission!</div>                
+            </div>
+            <div class="buttons">
+                <button class="quit">Exit Quiz</button>
+                <button class="restart">Continue</button>
+            </div>
+        </div>
+
+        <div class="quiz-box">
+            <header>
+                <div class="title">Crew, Not Passengers Quiz App</div>
+                <div class="timer">
+                    <div class="time-text">Time Left</div>
+                    <div class="timer-sec">15</div>
+                </div>
+                <div class="time-line"></div>
+            </header>
+
+            <section>
+                <div class="q-text">
+                    <span>The pygmalion effect is a type of _?</span>
+                </div>
+                <div class="option-list">
+                    <!--
+                    <div class="option">
+                        <span>operant conditioning</span>
+                        <div class="icon tick"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>reinforcement</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>self-fulfilling prophecy</span>
+                    </div>
+                    <div class="option">
+                        <span>cognitive dissonance</span>
+                    </div>
+                    -->
+                </div>
+            </section>
+
+            <footer>
+                <div class="total-q">
+                    <span><p>1</p>of<p>2</p>Questions</span>
+                </div>
+                <button class="next-btn">Next Question</button>
+            </footer>
+        </div>
+
+        <div class="result-box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete-text">You've completed the quiz!</div>
+            <div class="score-text">
+                <!--
+                    <span>You got <p>1</p> out of <p>2</p> right.</span>
+                -->
+                <div class="buttons">
+                    <button class="restart">Replay Quiz</button>
+                    <button class="quit">Exit Quiz</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="quizquestions.js"></script>
+    <script src="quizscript.js"></script>
+</html>
